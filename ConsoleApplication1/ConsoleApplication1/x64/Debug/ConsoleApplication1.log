@@ -1,2 +1,4 @@
 ﻿  ConsoleApplication1.cpp
+C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(43,46): warning C4244: инициализация: преобразование "size_t" в "double", возможна потеря данных
+C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(43,32): warning C4244: инициализация: преобразование "size_t" в "const double", возможна потеря данных
   ConsoleApplication1.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
