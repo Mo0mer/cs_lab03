@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg width='1000' height='500' viewBox='0 0 1000 500' xmlns='http://www.w3.org/2000/svg'>
-<text x='60' y='20'> 2</text>
-<rect x='90' y='0' width='20' height='30' stroke='red' fill='#ffeeee'/>
-<text x='20' y='50'> 3.67</text>
-<text x='60' y='80'> 5</text>
-<rect x='90' y='60' width='50' height='30' stroke='red' fill='#ffeeee'/>
-<text x='20' y='110'> 4.34</text>
-<text x='60' y='140'> 3</text>
-<rect x='90' y='120' width='30' height='30' stroke='red' fill='#ffeeee'/>
+<text x='60' y='20'> 9</text>
+<rect x='90' y='0' width='60' height='30' stroke='#CCCCFF' fill='#CCCCFF'/>
+<text x='20' y='50'> 1.67</text>
+<text x='60' y='80'> 33</text>
+<rect x='90' y='60' width='250' height='30' stroke='#D8BFD8' fill='#D8BFD8'/>
+<text x='20' y='110'> 2.34</text>
+<text x='60' y='140'> 100</text>
+<rect x='90' y='120' width='760' height='30' stroke='#9ACEEB' fill='#9ACEEB'/>
 </svg>

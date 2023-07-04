@@ -4,6 +4,7 @@
 #include <cmath>
 #include <iomanip>
 #include <string>
+#include <random>
 
 using namespace std;
 
@@ -31,8 +32,15 @@ void svg_text(double left, double baseline, double text) {
 }
 
 void svg_rect(double x, double y, double width, double height, string stroke = "black", string fill = "black") {
-    vector<string>;
-    cout << "<rect x='" << x << "' y='" << y << "' width='" << width << "' height='" << height << "' stroke='red' fill='#ffeeee'/>" << '\n';
+    vector<string> colors = {"#FFD1DC", "#77DD77", "#FCE883", "#9ACEEB", "#D8BFD8", 
+                                "#F0E68C", "#7FC7FF", "#AFEEEE", "#CCCCFF", "#3EB489"};
+    
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_int_distribution<> distr(0, 9);
+    string color = colors[distr(gen)];
+
+    cout << "<rect x='" << x << "' y='" << y << "' width='" << width << "' height='" << height << "' stroke='" << color << "' fill='" << color << "'/>" << '\n';
 }
 
 void svg_end() {
