@@ -1,11 +1,2 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(84,26): warning C4244: инициализация: преобразование "size_t" в "double", возможна потеря данных
-C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(85,27): warning C4244: инициализация: преобразование "size_t" в "double", возможна потеря данных
-C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,46): warning C4244: инициализация: преобразование "size_t" в "double", возможна потеря данных
-C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,32): warning C4244: инициализация: преобразование "size_t" в "const double", возможна потеря данных
-C:\Users\Admin\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(96,60): warning C4244: аргумент: преобразование "const _Ty" в "double", возможна потеря данных
-          with
-          [
-              _Ty=size_t
-          ]
+﻿  hist.cpp
   ConsoleApplication1.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

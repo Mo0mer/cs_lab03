@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <string>
 #include <random>
+#include "histogram.h"
 
 using namespace std;
 
@@ -155,19 +156,6 @@ void show_histogram_text(const vector<size_t>bons, size_t bin_count, double min,
         }
     }
 
-}
-
-void find_minmax(const vector<double>dogi, double& min, double& max) {
-    min = dogi[0];
-    max = dogi[0];
-    for (double x : dogi) {
-        if (x < min) {
-            min = x;
-        }
-        else if (x > max) {
-            max = x;
-        }
-    }
 }
 
 vector<double> create_mass(size_t number_count) {
