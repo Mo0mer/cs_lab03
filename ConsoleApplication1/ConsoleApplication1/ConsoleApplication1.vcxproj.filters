@@ -21,9 +21,15 @@
     <ClCompile Include="hist.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="pr_hist.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="histogram.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pr_hist.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

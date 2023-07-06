@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="hist.cpp" />
+    <ClCompile Include="pr_hist.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="histogram.h" />
+    <ClInclude Include="pr_hist.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
