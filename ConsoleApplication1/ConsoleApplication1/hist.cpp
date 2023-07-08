@@ -62,3 +62,20 @@ vector<size_t> make_hist(const vector<double>& dogi, size_t bin_count, size_t nu
     return bons;
 
 }
+
+vector <double> make_inter(size_t bin_count, double min, double max) {
+
+    vector<double> result;
+    
+    double bin_size = round((static_cast<double>(max - min) / bin_count) * 100.0) / 100.0;
+    double val_size = min;
+
+    for (int i = 0; i < bin_count; i++) {
+        val_size = val_size + bin_size;
+        if (i < (bin_count - 1)) {
+            result.push_back(val_size);
+        }
+    }
+
+    return result;
+}

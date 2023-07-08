@@ -39,6 +39,15 @@ void test_find_max_count() {
     assert(find_max_count({}) == 0);
 }
 
+void test_make_inter() {
+    vector<double> result = { 3.67, 4.34 };
+    assert(make_inter(3, 3, 5) == result);
+    result.assign({12});
+    assert(make_inter(2, 11, 13) == result);
+    result.assign({ 7.4, 9.8, 12.2, 14.6 });
+    assert(make_inter(5, 3, 15) == result);
+}
+
 int
 main() {
     test_find_min_max();
