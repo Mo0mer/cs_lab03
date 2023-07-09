@@ -42,9 +42,11 @@ void test_find_max_count() {
 void test_make_inter() {
     vector<double> result = { 3.67, 4.34 };
     assert(make_inter(3, 3, 5) == result);
+
     result.assign({12});
     assert(make_inter(2, 11, 13) == result);
-    result.assign({ 7.4, 9.8, 12.2, 14.6 });
+
+    result.assign({ 5.4, 7.8, 10.2, 12.6 });
     assert(make_inter(5, 3, 15) == result);
 }
 
@@ -53,4 +55,5 @@ main() {
     test_find_min_max();
     test_make_histogram();
     test_find_max_count();
+    test_make_inter();
 }

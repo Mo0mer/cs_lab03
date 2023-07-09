@@ -73,7 +73,7 @@ vector <double> make_inter(size_t bin_count, double min, double max) {
     for (int i = 0; i < bin_count; i++) {
         val_size = val_size + bin_size;
         if (i < (bin_count - 1)) {
-            result.push_back(val_size);
+            result.push_back(round(val_size * 100.0)/100.0);
         }
     }
 
